@@ -1,0 +1,102 @@
+[
+    {
+        "caption": "Starry Night",
+        "images": {
+            "thumbnail": "./assets/starry-night/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/starry-night/hero-small.jpg",
+            "large": "./assets/starry-night/hero-large.jpg"
+            },
+            "gallery": "./assets/starry-night/gallery.jpg"
+        }
+    },
+    {
+        "caption": "The Storm on the Sea of Galilee",
+        "images": {
+            "thumbnail": "./assets/the-storm-on-the-sea-of-galilee/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/the-storm-on-the-sea-of-galilee/hero-small.jpg",
+            "large": "./assets/the-storm-on-the-sea-of-galilee/hero-large.jpg"
+            },
+            "gallery": "./assets/the-storm-on-the-sea-of-galilee/gallery.jpg"
+        }
+    },
+    {
+        "caption": "Lady with an Ermine",
+        "images": {
+            "thumbnail": "./assets/lady-with-an-ermine/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/lady-with-an-ermine/hero-small.jpg",
+            "large": "./assets/lady-with-an-ermine/hero-large.jpg"
+            },
+            "gallery": "./assets/lady-with-an-ermine/gallery.jpg"
+        }
+    },
+    {
+        "caption": "The Boy in the Red Vest",
+        "images": {
+            "thumbnail": "./assets/the-boy-in-the-red-vest/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/the-boy-in-the-red-vest/hero-small.jpg",
+            "large": "./assets/the-boy-in-the-red-vest/hero-large.jpg"
+            },
+            "gallery": "./assets/the-boy-in-the-red-vest/gallery.jpg"
+        }
+    },
+    {
+        "caption": "Girl with a Pearl Earring",
+        "images": {
+            "thumbnail": "./assets/girl-with-pearl-earring/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/girl-with-pearl-earring/hero-small.jpg",
+            "large": "./assets/girl-with-pearl-earring/hero-large.jpg"
+            },
+            "gallery": "./assets/girl-with-pearl-earring/gallery.jpg"
+        }
+    },
+    
+    {
+        "caption": "The Great Wave off Kanagawa",
+        "images": {
+            "thumbnail": "./assets/the-great-wave-off-kanagawa/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/the-great-wave-off-kanagawa/hero-small.jpg",
+            "large": "./assets/the-great-wave-off-kanagawa/hero-large.jpg"
+            },
+            "gallery": "./assets/the-great-wave-off-kanagawa/gallery.jpg"
+        }
+    },
+    {
+        "caption": "The Night Café",
+        "images": {
+            "thumbnail": "./assets/the-night-cafe/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/the-night-cafe/hero-small.jpg",
+            "large": "./assets/the-night-cafe/hero-large.jpg"
+            },
+            "gallery": "./assets/the-night-cafe/gallery.jpg"
+        }
+    },
+    {
+        "caption": "Arnolfini Portrait",
+        "images": {
+            "thumbnail": "./assets/arnolfini-portrait/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/arnolfini-portrait/hero-small.jpg",
+            "large": "./assets/arnolfini-portrait/hero-large.jpg"
+            },
+            "gallery": "./assets/arnolfini-portrait/gallery.jpg"
+        }
+    },
+    {
+        "caption": "Guernica",
+        "images": {
+            "thumbnail": "./assets/guernica/thumbnail.jpg",
+            "hero": {
+            "small": "./assets/guernica/hero-small.jpg",
+            "large": "./assets/guernica/hero-large.jpg"
+            },
+            "gallery": "./assets/guernica/gallery.jpg"
+        }
+    }
+]
