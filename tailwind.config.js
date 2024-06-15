@@ -2,8 +2,8 @@
 const plugin = require('tailwindcss/plugin');
 export default {
   content: [
-    "./src/*js",
-    "*.html"
+    "*.js",
+    "index.html"
   ],
   theme: {
     screens: {
