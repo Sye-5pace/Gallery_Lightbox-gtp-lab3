@@ -47,6 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const lightBoxImgMatch = imageArr[index].images.gallery
         const boxImgContainer = document.createElement('div')
         const lightBoxImg = document.createElement('img');
+        const caption = document.createElement('caption')
+        caption.textContent = imageArr[index].caption
+        caption.classList.add('text-[#59a]','text-[1.5rem]','caption-bottom','font-medium')
         lightBoxImg.src = lightBoxImgMatch;
         lightBoxImg.classList.add('w-[20rem]')
         boxImgContainer.appendChild(close)
@@ -55,10 +58,12 @@ document.addEventListener('DOMContentLoaded', () => {
         lightBoxGroup.appendChild(prevTrigger)
         lightBoxGroup.appendChild(lightBoxImg)
         lightBoxGroup.appendChild(nextTrigger)
+        // lightBoxGroup.appendChild(caption)
         lightBoxGroup.classList.add('flex','align-center', 'gap-10','justify-center','h-[28rem]')
         boxImgContainer.appendChild(close)
         boxImgContainer.appendChild(lightBoxGroup)
-        boxImgContainer.classList.add('flex','flex-col','gap-y-8', 'align-center', 'gap-4', 'mt-[7.5rem]'  )
+        boxImgContainer.appendChild(caption)
+        boxImgContainer.classList.add('flex','flex-col','gap-y-3', 'align-center', 'gap-4', 'mt-[7.5rem]','pb-1'  )
         lightBox.appendChild(boxImgContainer)
         lightBox.classList.add('flex', 'justify-center', 'align-center', 'h-full')
 
