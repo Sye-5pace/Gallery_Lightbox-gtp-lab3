@@ -38,11 +38,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
         lightBox.style.display='block'
         lightBox.innerHTML = ``;
 
-        const lightBoxImgMatch =  imageArr[index].images.gallery
+        const lightBoxImgMatch =  imageArr[index].images.hero.large
         const boxImgContainer = document.createElement('div')
         const lightBoxImg = document.createElement('img');
         lightBoxImg.src = lightBoxImgMatch;
-        lightBoxImg.classList.add('w-[20rem]')
+        lightBoxImg.classList.add('h-[28.75rem]')
         boxImgContainer.appendChild(prevTrigger)
         boxImgContainer.appendChild(lightBoxImg)
         boxImgContainer.appendChild(nextTrigger)

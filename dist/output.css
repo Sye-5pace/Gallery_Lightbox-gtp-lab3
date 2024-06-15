@@ -602,8 +602,28 @@ video {
   height: 10rem;
 }
 
+.h-\[23rem\] {
+  height: 23rem;
+}
+
 .h-full {
   height: 100%;
+}
+
+.h-\[2rem\] {
+  height: 2rem;
+}
+
+.h-\[28rem\] {
+  height: 28rem;
+}
+
+.h-\[28\.rem\] {
+  height: 28.rem;
+}
+
+.h-\[28\.75rem\] {
+  height: 28.75rem;
 }
 
 .min-h-full {
