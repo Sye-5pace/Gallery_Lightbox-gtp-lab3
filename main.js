@@ -48,22 +48,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const boxImgContainer = document.createElement('div')
         const lightBoxImg = document.createElement('img');
         const caption = document.createElement('caption')
+
         caption.textContent = imageArr[index].caption
         caption.classList.add('text-[#fff]','text-[1.5rem]','caption-bottom','font-medium')
+        
         lightBoxImg.src = lightBoxImgMatch;
         lightBoxImg.classList.add('w-[20rem]')
-        boxImgContainer.appendChild(close)
-        const lightBoxGroup = document.createElement('div')
         
+        const lightBoxGroup = document.createElement('div')
         lightBoxGroup.appendChild(prevTrigger)
         lightBoxGroup.appendChild(lightBoxImg)
         lightBoxGroup.appendChild(nextTrigger)
-        // lightBoxGroup.appendChild(caption)
         lightBoxGroup.classList.add('flex','align-center', 'gap-10','mobile:gap-2','justify-center','h-[28rem]','mobile:h-[24rem]')
+        
         boxImgContainer.appendChild(close)
         boxImgContainer.appendChild(lightBoxGroup)
         boxImgContainer.appendChild(caption)
         boxImgContainer.classList.add('flex','flex-col','gap-y-3', 'align-center', 'gap-4', 'mt-[7.5rem]','pb-1'  )
+        
         lightBox.appendChild(boxImgContainer)
         lightBox.classList.add('flex', 'justify-center', 'align-center', 'h-full')
 
@@ -75,7 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
             currentIndex--;
         } else {
             prevTrigger.disabled
-            // currentIndex = imageArr.length - 1; // Loop to the last image
         }
         lightboxTrigger(currentIndex);
     });
@@ -84,8 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentIndex < imageArr.length - 1) {
             currentIndex++;
         } else {
-            // currentIndex = 0; // Loop to the first image
-            nextTrigger.disabled
+           nextTrigger.disabled
         }
         lightboxTrigger(currentIndex);
     });
