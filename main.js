@@ -9,17 +9,17 @@ let imageArr = []
 let currentIndex = 0;
 
 const closeIcon = document.createElement('img');
-closeIcon.src="./public/close.png"
+closeIcon.src="/close.png"
 closeIcon.classList.add('mobile:h-4','mobile:w-4', 'h-10','w-10','left-[63rem]','absolute','mobile:left-[23rem]','top-[3rem]','hover:animate-spin')
 close.appendChild(closeIcon)
 
 const prevIcon = document.createElement('img')
-prevIcon.src = "./public/previous.png"
+prevIcon.src = "/previous.png"
 prevIcon.classList.add('w-16', 'h-16','mobile:h-8','mobile:w-8','hover:animate-bounce')
 prevTrigger.appendChild(prevIcon)
 
 const nextIcon = document.createElement('img')
-nextIcon.src = "./public/next.png"
+nextIcon.src = "/next.png"
 nextIcon.classList.add('w-16', 'h-16','mobile:h-8','mobile:w-8','hover:animate-bounce')
 nextTrigger.appendChild(nextIcon)
 

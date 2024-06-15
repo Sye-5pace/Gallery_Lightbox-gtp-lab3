@@ -554,6 +554,28 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 200px) {
+  .container {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 427px) {
+  .container {
+    max-width: 427px;
+  }
+}
+
+@media (min-width: 782.1px) {
+  .container {
+    max-width: 782.1px;
+  }
+}
+
 .absolute {
   position: absolute;
 }
