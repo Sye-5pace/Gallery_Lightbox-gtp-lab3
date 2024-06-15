@@ -74,7 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = imageArr.length - 1; // Loop to the last image
+            prevTrigger.disabled
+            // currentIndex = imageArr.length - 1; // Loop to the last image
         }
         lightboxTrigger(currentIndex);
     });
@@ -83,7 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentIndex < imageArr.length - 1) {
             currentIndex++;
         } else {
-            currentIndex = 0; // Loop to the first image
+            // currentIndex = 0; // Loop to the first image
+            nextTrigger.disabled
         }
         lightboxTrigger(currentIndex);
     });
