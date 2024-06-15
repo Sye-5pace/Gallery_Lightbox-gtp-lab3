@@ -6,6 +6,9 @@ export default {
     "index.html"
   ],
   theme: {
+    fontFamily:{
+      'poestsen': ['Poetsen One', 'sans-serif']
+    },
     screens: {
       'mobile': {'min':'200px','max':'427px'},
       'tablet': {'min':'427px','max':'782px'},

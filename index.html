@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <link href="./dist/output.css" rel="stylesheet">
     <title>Gallery App</title>
   </head>
-  <body class=" w-full min-h-full border-box m-0 p-0">
-    <div  class="w-full flex flex-col gap-y-10 mobile:gap-y-3">
+  <body class=" w-full min-h-full border-box m-0 p-0 font-poestsen">
+    <div  class="w-full flex flex-col gap-y-7 mobile:gap-y-3">
       <header class="p-4 border-b-2 border-[#59a] border-opacity-[50%]">
-        <h1 class="text-xl font-bold text-[#59a]">Gallery Lightbox</h1>
+        <h1 class="text-[2.125rem] font-medium text-[#59a]">Gallery Lightbox</h1>
       </header>
       <main class="flex justify-center w-full">
         <div id="gallery-list" class="rounded-[1rem] border-2 border-opacity-[50%] border-[#59a] grid grid-cols-3 gap-[0.625rem] p-2 mobile:gap-[0.625rem] mobile:border-none mobile:p-2 mobile:border-t-2 shadow-lg"> 

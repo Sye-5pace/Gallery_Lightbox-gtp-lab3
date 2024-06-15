@@ -10,17 +10,17 @@ let currentIndex = 0;
 
 const closeIcon = document.createElement('img');
 closeIcon.src="./public/close.png"
-closeIcon.classList.add( 'h-10','w-10','left-[63rem]','absolute','hover:animate-spin')
+closeIcon.classList.add('mobile:h-4','mobile:w-4', 'h-10','w-10','left-[63rem]','absolute','mobile:left-[23rem]','top-[3rem]','hover:animate-spin')
 close.appendChild(closeIcon)
 
 const prevIcon = document.createElement('img')
 prevIcon.src = "./public/previous.png"
-prevIcon.classList.add('w-16', 'h-16')
+prevIcon.classList.add('w-16', 'h-16','mobile:h-8','mobile:w-8','hover:animate-bounce')
 prevTrigger.appendChild(prevIcon)
 
 const nextIcon = document.createElement('img')
 nextIcon.src = "./public/next.png"
-nextIcon.classList.add('w-16', 'h-16')
+nextIcon.classList.add('w-16', 'h-16','mobile:h-8','mobile:w-8','hover:animate-bounce')
 nextTrigger.appendChild(nextIcon)
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const lightBoxImg = document.createElement('img');
         const caption = document.createElement('caption')
         caption.textContent = imageArr[index].caption
-        caption.classList.add('text-[#59a]','text-[1.5rem]','caption-bottom','font-medium')
+        caption.classList.add('text-[#fff]','text-[1.5rem]','caption-bottom','font-medium')
         lightBoxImg.src = lightBoxImgMatch;
         lightBoxImg.classList.add('w-[20rem]')
         boxImgContainer.appendChild(close)
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         lightBoxGroup.appendChild(lightBoxImg)
         lightBoxGroup.appendChild(nextTrigger)
         // lightBoxGroup.appendChild(caption)
-        lightBoxGroup.classList.add('flex','align-center', 'gap-10','justify-center','h-[28rem]')
+        lightBoxGroup.classList.add('flex','align-center', 'gap-10','mobile:gap-2','justify-center','h-[28rem]','mobile:h-[24rem]')
         boxImgContainer.appendChild(close)
         boxImgContainer.appendChild(lightBoxGroup)
         boxImgContainer.appendChild(caption)
